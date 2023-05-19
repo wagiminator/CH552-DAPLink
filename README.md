@@ -43,7 +43,7 @@ sudo pip install pyusb
 Connect the DAPLink to the target board via the pin header. You can supply power via the 3V3 pin or the 5V pin (max 400 mA). Plug the DAPLink into a USB port on your PC. Since it is recognized as a Human Interface Device (HID), no driver installation is required. However, Windows users may need to install a CDC driver for the Virtual COM Port (VCP) using the [Zadig Tool](https://zadig.akeo.ie/). The DAPLink should work with any debugging software that supports CMSIS-DAP (e.g. OpenOCD or PyOCD). Of course, it also works with the [SAMD DevBoards](https://github.com/wagiminator/SAMD-Development-Boards) in the Arduino IDE (Tools -> Programmer -> Generic CMSIS-DAP). The virtual COM port (8N1 only) can be used with any serial monitor.
 
 # References, Links and Notes
-1. [EasyEDA Design Files](https://oshwlab.com/wagiminator/ch552-swd-programmer)
+1. [EasyEDA Design Files](https://oshwlab.com/wagiminator/ch552g-daplink)
 2. [ARMmbed DAPLink](https://github.com/ARMmbed/DAPLink)
 3. [CH55xduino](https://github.com/DeqingSun/ch55xduino)
 4. [Ralph Doncaster's Implementation](https://github.com/nerdralph/ch554_sdcc/tree/master/examples/CMSIS_DAP)

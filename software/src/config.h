@@ -27,5 +27,5 @@
 #define MANUFACTURER_STR    'w','a','g','i','m','i','n','a','t','o','r'
 #define PRODUCT_STR         'D','A','P','L','i','n','k',' ', 'C','M','S','I','S','-','D','A','P'
 #define SERIAL_STR          'C','H','5','5','2'
-#define INTERFACE_STR_1     'C','D','C',' ','V','C','P'
-#define INTERFACE_STR_2     'H','I','D',' ','D','a','t','a'
+#define INTERFACE_STR_1     'C','M','S','I','S','-','D','A','P',' ','C','D','C'
+#define INTERFACE_STR_2     'C','M','S','I','S','-','D','A','P',' ','Q','Y','F'
